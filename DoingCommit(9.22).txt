@@ -1,0 +1,13 @@
+$ mkdir 디렉토리이름 > (commit 할 파일 생성)
+$ cd 디렉토리이름 > (위에서 만든 폴더로 이동함)
+$ git init (git 초기화, git 폴더로 지정)
+$ git remote add 원격저장소_별명(origin) 원격저장소_주소 (원격 저장소 등록)
+$ git remote -v (등록된 주소 확인 가능)
+$ git status (파일들의 현재 상태 보기)
+$ git add 커밋할_파일 (staing staged에 파일 등록)
+$ git commit -m "커밋_메세지" (커밋 메모같은 느낌_첫번째)
+$ git push 원격저장소_별명(origin) 브랜치_이름(main or master) (깃허브에 커밋 완료)
+
+협업
+(Collaborators에서 Add People로 추가)
+
